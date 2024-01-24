@@ -10,7 +10,7 @@ sudo apt install openjdk-<version-jdk>-jdk # For Example
 sudo apt install openjdk-11-jdk
 ```
 
-2 - unzip the jdk file this command `tar -xvf` and move the file `mv`
+2 - Unzip the jdk file this command `tar -xvf` and move the file `mv`
 
 ```bash
 sudo mv jdk /opt/jdk
@@ -27,7 +27,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 4- Download Spark:  [spark-3.5.0-bin-hadoop3.tgz](https://www.apache.org/dyn/closer.lua/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz)
 
 
-5- unzip the spark file this command `tar -xvf` and move the file `mv`
+5- Unzip the spark file this command `tar -xvf` and move the file `mv`
 
 ```bash
 sudo mv spark-3.1.1-bin-hadoop2.7 /opt/spark
@@ -64,4 +64,4 @@ export PYSPARK_PYTHON=python3
 
 For testing the Pyspark just you make this command: `pyspark` in your terminal, like this it will open an GUI Jupyter Notebook with pyspark
 
-OBS: After the changes in `gedit bashrc` you need save the changes utilizing this command `source .bashrc` for to save the changes whitout need restar your machine Linux.
+OBS: After the changes in `gedit bashrc` you need save the changes utilizing this command `source .bashrc` for to save the changes whitout need restart your machine Linux.
